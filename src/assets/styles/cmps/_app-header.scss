@@ -1,0 +1,42 @@
+header {
+    height: 8vh;
+    background-color: #222222;
+    color: white;
+    
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-container {
+            display: flex;
+            gap: 8px;
+            span {
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-shadow: -1px -1px 1px black;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+            }    
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .router-link-active{
+            font-weight: 700;
+            text-shadow: -1px -1px 1px black;
+        }
+
+        .user-info {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+    }
+}
