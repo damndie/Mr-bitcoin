@@ -22,6 +22,7 @@ export default {
 <style scoped>
 main {
   min-height: 87vh;
+  background-color: #222222;
 }
 
 nav a {
